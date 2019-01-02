@@ -1,0 +1,21 @@
+nav {
+  background-color: #3A3A49;
+}
+nav a {
+  background-image: #4a5ebb;
+}
+
+.citation {
+  background-color: #e7e7de;
+}
+.citation h2 {
+  color: #7a818d;
+}
+.citation h2 .bg {
+  background-color: #3A98CE;
+}
+.citation h2 .bg .simplicity {
+  color: #6a717e;
+}
+
+/*# sourceMappingURL=nav.css.map */
