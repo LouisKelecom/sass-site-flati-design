@@ -1,0 +1,16 @@
+footer .row1 {
+  background-color: #4A5EBB;
+  color: #AFBDDB;
+}
+footer .row1 h5 {
+  letter-spacing: 0.5rem;
+}
+footer .row1 i {
+  color: #6880CA;
+}
+footer .row2 {
+  background-color: #3A3A49;
+  color: #676770;
+}
+
+/*# sourceMappingURL=footer.css.map */

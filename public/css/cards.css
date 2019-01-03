@@ -1,12 +1,12 @@
-.cards .icones {
+.cards .icones .card-body {
   background-color: #E1DFDF;
 }
-.cards .icones .rounded-circle {
+.cards .icones .card-body .rounded-circle {
   width: 55px;
   height: 55px;
   background-color: white;
 }
-.cards .icones .rounded-circle .fas {
+.cards .icones .card-body .rounded-circle .fas {
   color: #5467BE;
   align-items: center;
 }
@@ -17,12 +17,18 @@
 
 .lorem .jumbotron {
   background-color: transparent;
+  margin: 0;
+  padding: 100px 0;
 }
 .lorem .jumbotron .btn-primary {
-  background-color: #3A98CE !important;
+  background-color: #3A98CE;
 }
 .lorem .card-body {
   background-color: #3D4460;
+  width: 150px;
+}
+.lorem .col-7 {
+  padding: 50px 0;
 }
 
 /*# sourceMappingURL=cards.css.map */

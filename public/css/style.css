@@ -9531,15 +9531,15 @@ nav .nav-tabs {
   color: #6a717e;
 }
 
-.cards .icones {
+.cards.icones .card-body {
   background-color: #E1DFDF;
 }
-.cards .icones .rounded-circle {
+.cards.icones .card-body .rounded-circle {
   width: 55px;
   height: 55px;
   background-color: white;
 }
-.cards .icones .rounded-circle .fas {
+.cards.icones .card-body .rounded-circle .fas {
   color: #5467BE;
   align-items: center;
 }
@@ -9548,14 +9548,35 @@ nav .nav-tabs {
   color: #5AA5D1;
 }
 
-.lorem {
-  background-color: #3D4460;
-}
 .lorem .jumbotron {
   background-color: transparent;
+  margin: 0;
+  padding: 100px 0;
 }
 .lorem .jumbotron .btn-primary {
-  background-color: #3A98CE;
+  background-color: #3A98CE !important;
+}
+.lorem .card-body {
+  background-color: #3D4460;
+  width: 150px;
+}
+.lorem .col-7 {
+  padding: 50px 0;
+}
+
+footer .row1 {
+  background-color: #4A5EBB;
+  color: #AFBDDB;
+}
+footer .row1 h5 {
+  letter-spacing: 0.5rem;
+}
+footer .row1 i {
+  color: #6880CA;
+}
+footer .row2 {
+  background-color: #3A3A49;
+  color: #676770;
 }
 
 /*# sourceMappingURL=style.css.map */
