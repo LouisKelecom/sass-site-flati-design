@@ -1,0 +1,28 @@
+.cards .icones {
+  background-color: #E1DFDF;
+}
+.cards .icones .rounded-circle {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+}
+.cards .icones .rounded-circle .fas {
+  color: #5467BE;
+  align-items: center;
+}
+
+.card-subtitle {
+  color: #5AA5D1;
+}
+
+.lorem .jumbotron {
+  background-color: transparent;
+}
+.lorem .jumbotron .btn-primary {
+  background-color: #3A98CE !important;
+}
+.lorem .card-body {
+  background-color: #3D4460;
+}
+
+/*# sourceMappingURL=cards.css.map */

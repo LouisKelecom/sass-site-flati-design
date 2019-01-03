@@ -9514,21 +9514,48 @@ h3 {
 nav {
   background-color: #3A3A49;
 }
-nav a {
+nav .nav-tabs {
   background-image: #4a5ebb;
 }
 
 .citation {
   background-color: #e7e7de;
 }
-.citation p {
+.citation h2 {
   color: #7a818d;
 }
-.citation p bg {
+.citation h2 .bg {
   background-color: #3A98CE;
 }
-.citation p .simplicity {
+.citation h2 .bg .simplicity {
   color: #6a717e;
+}
+
+.cards .icones {
+  background-color: #E1DFDF;
+}
+.cards .icones .rounded-circle {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+}
+.cards .icones .rounded-circle .fas {
+  color: #5467BE;
+  align-items: center;
+}
+
+.card-subtitle {
+  color: #5AA5D1;
+}
+
+.lorem {
+  background-color: #3D4460;
+}
+.lorem .jumbotron {
+  background-color: transparent;
+}
+.lorem .jumbotron .btn-primary {
+  background-color: #3A98CE;
 }
 
 /*# sourceMappingURL=style.css.map */
